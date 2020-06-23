@@ -1,8 +1,9 @@
 # VSSB
 Very simple SMB brute force\
 \
-Some complex tool may fail sometimes.\
-This script just tries to login via "smbclient".\
+Some complex tools may fail sometimes.
+\
+This script just tries to login via "smbclient".
 \
 ```usage: ./simple-smb-bruteforce.sh -u users.txt -p pswds.txt [-d DOMAIN] -s 10.10.10.123```
 \

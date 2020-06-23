@@ -3,10 +3,8 @@ Very simple SMB brute force.
 \
 \
 Some complex tools may fail sometimes and miss a valid combination of username/password: this script just tries to login multiple time via "smbclient".
-\
-\
 ```
-usage: ./simple-smb-bruteforce.sh -u users.txt -p pswds.txt [-d DOMAIN] -s 10.10.10.123
+usage: ./vssb.sh -u users.txt -p pswds.txt [-d DOMAIN] -s 10.10.10.123
 ```
 \
 Considering the following file (containing a list of users):

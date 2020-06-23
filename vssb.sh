@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/bash
 usernames_list=""
 passwords_list=""
 domain=""

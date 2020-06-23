@@ -9,13 +9,10 @@ This script just tries to login via "smbclient".\
 \
 Considering the following file (containing a list of users):
 \
-`kali@kali:~/Desktop$ cat usrs.txt`
-\
-`pippo`
-\
-`fsmith`  
-\
-`luca`
+```kali@kali:~/Desktop$ cat usrs.txt
+pippo
+fsmith
+luca```
 \
 \and the following file (containing a list of passwords):
 \

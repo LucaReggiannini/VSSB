@@ -1,8 +1,8 @@
 # VSSB
-Very simple SMB brute force
+Very simple SMB brute force.
 \
 \
-Some complex tools may fail sometimes: this script just tries to login via "smbclient"
+Some complex tools may fail sometimes: this script just tries to login via "smbclient".
 \
 \
 ```

@@ -1,11 +1,11 @@
 # VSSB
 Very simple SMB brute force
-Considering the following file (containing a list of users):
+Considering the following file (containing a list of users):\
 `
-kali@kali:~/Desktop$ cat usrs.txt  
-pippo  
+kali@kali:~/Desktop$ cat usrs.txt
+pippo
 fsmith  
-luca  
+luca
 `
 
 and the following file (containing a list of passwords):

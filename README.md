@@ -6,6 +6,7 @@ This script just tries to login via "smbclient".\
 \
 `usage: ./simple-smb-bruteforce.sh -u users.txt -p pswds.txt [-d DOMAIN] -s 10.10.10.123`
 \
+\
 Considering the following file (containing a list of users):\
 `
 kali@kali:~/Desktop$ cat usrs.txt

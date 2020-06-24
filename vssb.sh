@@ -38,7 +38,7 @@ for user in $(cat $usernames_list)
 	do
 		for pass in $(cat $passwords_list)
 			do
-				# Connection errors and similar will still be shown because they are written in stderr file
+				# Connection errors and similar will still be shown because they are written in stderr
 				# "NT_STATUS_LOGON_FAILURE" and similar are written in stdout
 				if ! smbclient -L \\\\$server\\ -U "$domain\\$user%$pass" | grep -q 'FAILURE'; then
    					echo "Found $domain@$user:$pass"
